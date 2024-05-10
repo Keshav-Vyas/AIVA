@@ -1,2 +1,4 @@
 # AIVA
  "AIVA (Artificial Intelligence Voice Assistant) is your friend and a static system assistant and chatbot who can solve any of your HTML - related queries...
+
+![Uploading AIVA_GUI.gif…]()
