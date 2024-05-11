@@ -1,33 +1,50 @@
-<!DOCTYPE html>
 <html>
-<head>
-    <title>AIVA</title>
-    <link rel="stylesheet" type="text/css" href="style.css">
-    <link href="https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap" rel="stylesheet">
-</head>
-<body>
+
+  <head>
+    <title>Project: AIVA</title>
+    <!-- Link to external CSS file -->
+    <link rel="stylesheet" href="style.css">
+  </head>
+
+  <!-- Body section containing the webpage content -->
+  <body>
+    <!-- Header section -->
     <header>
-        <nav>
-            <div class="logo">
-                <h1 style="font-size: 20px;">AIVA</h1>
-            </div>
-            <div class="menu">
-                <a href="index.html">HOME</a>
-            </div>
-        </nav>
-        <section>
-            <div class="bg-video">
-                <video src="BgAIVA.mp4" type="video/mp4" autoplay muted loop></video>
-            </div>
-            <div class="content">
-                <h3>AIVA: Artificial Intelligence Voice Assistant</h3>
-                <h1><span class="change_content"></span></h1>
-                <p>"Coding problems? Let me be your guide and help you find the solution."</p>
-                <a href="https://docs.google.com/presentation/d/e/2PACX-1vTjAFeH9MXVKQenReE0xR_7fw5R-1lEhsk-6WYIO5anItLB1UXwiuUrQEy4tRVuDQ/embed?start=true&loop=false&delayms=1000&rm=minimal&showViz=1" target="_blank" class="btnone">learn more</a>
-                <a href="#" class="btntwo" onclick="openCodeWindow()">Try AIVA</a>
-            </div>
-        </section>
+      <!-- Navigation menu -->
+      <nav>
+        <div class="logo">
+          <h1>AIVA</h1>
+        </div>
+        <div class="menu">
+          <a href="index.html">HOME</a>
+        </div>
+      </nav>
+
+      <section>
+        <!-- Background video -->
+        <div class="bg-video">
+          <!-- Video element with autoplay, muted, and loop attributes -->
+          <video src="BgAIVA.mp4" type="video/mp4" autoplay muted loop></video>
+        </div>
+
+        <div class="content">
+
+          <h3>AIVA: Artificial Intelligence Voice Assistant</h3>
+          <!-- Heading 1 with dynamic content -->
+          <h1><span class="change_content"></span></h1>
+
+          <p>"Coding problems? Let me be your guide and help you find the solution."</p>
+          <!-- Button to open PPT -->
+          <a href="https://docs.google.com/presentation/d/e/2PACX-1vTjAFeH9MXVKQenReE0xR_7fw5R-1lEhsk-6WYIO5anItLB1UXwiuUrQEy4tRVuDQ/embed?start=true&loop=false&delayms=1000&rm=minimal&showViz=1" target="_blank" class="btnone">learn more</a>
+          <!-- Button to open a code window -->
+          <a href="#" class="btntwo" onclick="openCodeWindow()">Try AIVA</a>
+        </div>
+      </section>
+
     </header>
-</body>
-<script src="script.js"></script>
+  </body>
+  
+  <!-- Link to external JavaScript file -->
+  <script src="script.js"></script>
+
 </html>
