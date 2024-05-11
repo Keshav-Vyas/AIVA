@@ -22,6 +22,43 @@ The program starts by greeting the user and asking for their name. It then gives
 
 **Database:** MySQL
 
+
+## To Run This Program
+
+Clone the project
+
+```bash
+  git clone https://github.com/Keshav-Vyas/AIVA
+```
+
+Go to the project directory
+
+```bash
+  cd AIVA
+```
+
+Install Required Libraries
+
+```bash
+  pip install pyttsx3
+```
+```bash
+  pip install SpeechRecognition
+```
+```bash
+  pip install mysql-connector-python
+```
+```bash
+  pip install wikipedia
+```
+
+Run the code
+
+```bash
+  python FinalAIVA.py
+
+```
+
 ## Feedback
 
 If you have any feedback, please reach out to us at yohokeshav@gmail.com
