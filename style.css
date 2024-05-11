@@ -1,3 +1,4 @@
+/* Reset styles and set global font */
 * {
   margin: 0;
   padding: 0;
@@ -5,6 +6,7 @@
   font-family: "Josefin Sans", sans-serif;
 }
 
+/* Header styles */
 header {
   width: 100%;
   height: 100vh;
@@ -12,6 +14,7 @@ header {
   overflow: hidden;
 }
 
+/* Navigation styles */
 nav {
   width: 100%;
   height: 15vh;
@@ -26,18 +29,15 @@ nav {
 nav .logo {
   width: 25%;
   text-align: center;
-  font-family: Arial, Helvetica, sans-serif;
 }
 
 nav .menu {
   width: 35%;
   display: flex;
-  text-align: left;
   justify-content: space-evenly;
 }
 
 nav .menu a {
-  width: 25%;
   text-decoration: none;
   color: white;
   font-weight: bold;
@@ -47,6 +47,7 @@ nav .menu a:first-child {
   color: #00b894;
 }
 
+/* Section styles */
 section {
   width: 100%;
   height: 85vh;
@@ -111,6 +112,7 @@ section .btntwo {
   color: #000;
 }
 
+/* Animated text styles */
 .change_content:after {
   content: "";
   animation: changetext 10s infinite linear;
@@ -126,6 +128,7 @@ section .btntwo {
   100% { content: "Guide"; }
 }
 
+/* Background video styles */
 .bg-video {
   position: absolute;
   top: 0;
@@ -150,3 +153,13 @@ section .btntwo {
 .content {
   z-index: 1;
 }
+
+/* Python Code File Style */
+.code-window {
+  font-family: monospace;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+  color: #00b894;
+  background-color: #1e1e1e;
+  padding: 20px;
+} 
